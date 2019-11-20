@@ -23,7 +23,7 @@
 - **Responsable doit pouvoir**
   - Accéder au suivi des commandes en temps réel (passées, en préparation et en livraison)
   - Accéder au stock d'ingrédients restants pour savoir quelles pizzas peuvent encore être réalisées
-  - **Pizzaiolo doit pouvoir**
+- **Pizzaiolo doit pouvoir**
   - Voir commande à préparer, changer état commande (en préparation, à livrer)
   - Accéder au stock d'ingrédients restants pour savoir quelles pizzas peuvent encore être réalisées
   - Accéder à un aide-mémoire indiquant la recette de chaque pizza
