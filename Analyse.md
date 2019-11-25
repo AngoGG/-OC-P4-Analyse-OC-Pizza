@@ -44,13 +44,38 @@
 
 <img src = "Diagrammes/Diagramme_packages.jpg" title = "Diagramme de contexte">
 
+- **Package Client:**
+  - Visiteur doit pouvoir
+    - Consulter catalogue recettes
+    - S'incrire
+    - S'identifier
+  - Client doit pouvoir
+    - Sélectionner produits
+    - Valider commande
+    - Choisir mode  paiement
+      - Payer en ligne
+      - Payer à la livraison
+    - Vérifier état commande
+      - Modifier commande tant que pas "en préparation"
+      - Annuler commande tant que pas "en préparation"
+
+- **Package Client:**
+  - Livreur doit pouvoir
+    - S'identifier
+    - Consulter commandes à livrer
+    - Changer état commander en "Livrée"
+    - Récupérer Paiement Commande
+
+- **Package Pizzéria:**
+  - Pizzaiolo
+  - Responsable
+
+- **Package Equipe Nationale:**
+  - Equipe Nationale
+
+
+
 - **Package Gestion de Commande:**
-  - Interface Web
-        - Passage de commande
-        - Suivi commande
-        - Modification commande
-        - Annulation commande
-        - Paiement commande
   - Interface interne
         - Suivi état commande (à traiter, en préparation, à livrer, en livraison, livrée)
         - Changement état commande (à traiter, en préparation, à livrer, en livraison, livrée)
@@ -59,3 +84,4 @@
       - Suivi stock ingrédients
       - Aide-Mémoire recettes de pizza
       - Administration? (droits utilisateurs)
+    
