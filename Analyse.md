@@ -12,8 +12,8 @@
 - Système bancaire
 
 **Questions**
-- Qui effectuera la gestion des commandes au sein de la pizzéria? (Récupération des commandes passées, changement d'état vers en préparation et à livrer)
-- Le responsable est-il l'administrateur du système ou est-ce un acteur à part entière?
+    - Qui effectuera la gestion des commandes au sein de la pizzéria? (Récupération des commandes passées, changement d'état vers en préparation et à livrer)
+    - Le responsable est-il l'administrateur du système ou est-ce un acteur à part entière?
 
 <img src = "Diagrammes/Diagramme_contexte.jpg" title = "Diagramme de contexte">
 
@@ -38,25 +38,24 @@
     - à la livraison
   - Modifier ou annuler une commande qui n'est pas en préparation
 
-
 **Questions**
-- Possibilité pour le client de se connecter pour garder ses informations en mémoire? (voir son historique de commandes?)
-- Gestion des droits utilisateurs? (Peut-être un peu tôt)
+    - Possibilité pour le client de se connecter pour garder ses informations en mémoire? (voir son historique de commandes?)
+    - Gestion des droits utilisateurs? (Peut-être un peu tôt)
 
 <img src = "Diagrammes/Diagramme_packages.jpg" title = "Diagramme de contexte">
 
 - **Package Gestion de Commande:**
-    - Interface Web
+  - Interface Web
         - Passage de commande
         - Suivi commande
         - Modification commande
         - Annulation commande
         - Paiement commande
-    - Interface interne
+  - Interface interne
         - Suivi état commande (à traiter, en préparation, à livrer, en livraison, livrée)
         - Changement état commande (à traiter, en préparation, à livrer, en livraison, livrée)
-    
+  
 - **Package Gestion Générale:**
-    - Suivi stock ingrédients
-    - Aide-Mémoire recettes de pizza
-    - Administration? (droits utilisateurs)
+      - Suivi stock ingrédients
+      - Aide-Mémoire recettes de pizza
+      - Administration? (droits utilisateurs)
