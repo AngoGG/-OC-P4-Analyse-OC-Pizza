@@ -17,40 +17,46 @@
 
 <img src = "Diagrammes/Diagramme_contexte.jpg" title = "Diagramme de contexte">
 
-## Tâches
-
-- **Responsable doit pouvoir**
-  - Accéder au suivi des commandes en temps réel (passées, en préparation et en livraison)
-  - Accéder au stock d'ingrédients restants pour savoir quelles pizzas peuvent encore être réalisées
-- **Pizzaiolo doit pouvoir**
-  - Voir commande à préparer, changer état commande (en préparation, à livrer)
-  - Accéder au stock d'ingrédients restants pour savoir quelles pizzas peuvent encore être réalisées
-  - Accéder à un aide-mémoire indiquant la recette de chaque pizza
-- **Livreur doit pouvoir**
-  - Changer état d'une commande pour indiquer sa livraison
-- **Client doit pouvoir**
-  - Commander
-    - en ligne
-    - au téléphone
-    - sur place
-  - Payer
-    - en ligne
-    - à la livraison
-  - Modifier ou annuler une commande qui n'est pas en préparation
-
-**Questions**
-    - Possibilité pour le client de se connecter pour garder ses informations en mémoire? (voir son historique de commandes?)
-    - Gestion des droits utilisateurs? (Peut-être un peu tôt)
+## Packages et Tâches
 
 <img src = "Diagrammes/Diagramme_packages.jpg" title = "Diagramme de contexte">
 
-- **Package Client:**
-  - Visiteur doit pouvoir
-    - Consulter catalogue recettes
-    - S'incrire
-    - S'identifier
-  - Client doit pouvoir
-    - Sélectionner produits
+- **Equipe Nationale doit pouvoir**
+  - Se connecter
+    - Consulter les commandes en cours peut importe leur état, y compris les commandes livrées
+    - Consulter l'état du stock d'ingrédients
+    - Gérer les droits utilisateurs (administration)
+
+<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Equipe Nationale.jpg" title = "Cas d'utilisation Equipe Nationale">
+
+- **Responsable doit pouvoir**
+  - Se connecter
+    - Consulter les commandes en cours peut importe leur état
+    - Modifier l'état d'une commande ('en cours de préparation, 'à traiter')
+    - Consulter l'Aide-mémoire de recettes de pizza
+    - Consulter l'état du stock d'ingrédients
+    - Gérer les droits utilisateurs (administration)
+- **Pizzaiolo doit pouvoir**
+  - Se connecter
+  - Consulter les commandes à traiter
+  - Modifier l'état d'une commande ('en cours de préparation, 'à traiter')
+  - Consulter l'Aide-mémoire de recettes de pizza
+  - Consulter l'état du stock d'ingrédient?
+- **Livreur doit pouvoir**
+  - Se connecter
+  - Consulter commandes à livrer
+  - Changer état commander en "Livrée"
+  - Récupérer Paiement Commande
+
+<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Livreur.jpg" title = "Cas d'utilisation Livreur">
+
+- **Visiteur doit pouvoir**
+  - Consulter catalogue recettes
+  - S'incrire
+  - S'identifier
+
+- **Client doit pouvoir**
+  - Sélectionner produits
     - Valider commande
     - Choisir mode  paiement
       - Payer en ligne
@@ -59,29 +65,4 @@
       - Modifier commande tant que pas "en préparation"
       - Annuler commande tant que pas "en préparation"
 
-- **Package Client:**
-  - Livreur doit pouvoir
-    - S'identifier
-    - Consulter commandes à livrer
-    - Changer état commander en "Livrée"
-    - Récupérer Paiement Commande
-
-- **Package Pizzéria:**
-  - Pizzaiolo
-  - Responsable
-
-- **Package Equipe Nationale:**
-  - Equipe Nationale
-
-
-
-- **Package Gestion de Commande:**
-  - Interface interne
-        - Suivi état commande (à traiter, en préparation, à livrer, en livraison, livrée)
-        - Changement état commande (à traiter, en préparation, à livrer, en livraison, livrée)
-  
-- **Package Gestion Générale:**
-      - Suivi stock ingrédients
-      - Aide-Mémoire recettes de pizza
-      - Administration? (droits utilisateurs)
-    
+<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Client.jpg" title = "Cas d'utilisation Client">
