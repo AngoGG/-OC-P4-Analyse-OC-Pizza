@@ -19,6 +19,8 @@
 
 ## Packages et Tâches
 
+### Package Interface Equipe Nationale
+
 <img src = "Diagrammes/Diagramme_packages.jpg" title = "Diagramme de contexte">
 
 - **Equipe Nationale doit pouvoir**
@@ -28,6 +30,8 @@
     - Gérer les droits utilisateurs (administration)
 
 <img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Equipe Nationale.jpg" title = "Cas d'utilisation Equipe Nationale">
+
+### Package Interface Equipe Pizzéria
 
 - **Responsable doit pouvoir**
   - Se connecter
@@ -42,6 +46,11 @@
   - Modifier l'état d'une commande ('en cours de préparation, 'à traiter')
   - Consulter l'Aide-mémoire de recettes de pizza
   - Consulter l'état du stock d'ingrédient?
+
+<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Pizzeria.jpg" title = "Cas d'utilisation Equipe Pizzéria">
+
+### Package Interface Livreur
+
 - **Livreur doit pouvoir**
   - Se connecter
   - Consulter commandes à livrer
@@ -49,6 +58,8 @@
   - Récupérer Paiement Commande
 
 <img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Livreur.jpg" title = "Cas d'utilisation Livreur">
+
+### Package Interface Client
 
 - **Visiteur doit pouvoir**
   - Consulter catalogue recettes
