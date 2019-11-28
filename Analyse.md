@@ -6,10 +6,9 @@
 - Pizzaiolos
 - Livreurs
 - Client
-- *Gestionnaire de commande?*
-- *Administrateur système?*
 - Système de gestion
 - Système bancaire
+- Equipe Nationale
 
 **Questions**
     - Qui effectuera la gestion des commandes au sein de la pizzéria? (Récupération des commandes passées, changement d'état vers en préparation et à livrer)
