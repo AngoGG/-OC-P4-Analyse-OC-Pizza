@@ -1,4 +1,4 @@
-# Cas  n°2
+# Cas  n°4
 
 **Nom:** Modifier Commandes à traiter (package « Equipe Pizzeria »)<br>
 **Acteurs(s):** Pizzaiolo ou Responsable Pizzeria<br>

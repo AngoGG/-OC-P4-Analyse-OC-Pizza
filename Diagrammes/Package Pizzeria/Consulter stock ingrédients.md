@@ -1,4 +1,4 @@
-# Cas  n°2
+# Cas  n°5
 
 **Nom:** Consulter Stock Ingrédient (package « Equipe Pizzeria »)<br>
 **Acteurs(s):** Pizzaiolo<br>

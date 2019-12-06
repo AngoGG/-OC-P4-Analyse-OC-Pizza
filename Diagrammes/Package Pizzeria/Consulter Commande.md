@@ -1,4 +1,4 @@
-# Cas  n°1
+# Cas  n°3
 
 **Nom:** Consulter Commandes à traiter (package « Pizzéria »)<br>
 **Acteurs(s):** Pizzaiolo ou Responsable de la Pizzéria<br>
