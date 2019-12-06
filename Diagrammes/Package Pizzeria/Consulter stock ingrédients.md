@@ -1,6 +1,6 @@
 # Cas  n°2
 
-**Nom:** Consulter Aide-Mémoire (package « Equipe Pizzeria »)<br>
+**Nom:** Consulter Stock Ingrédient (package « Equipe Pizzeria »)<br>
 **Acteurs(s):** Pizzaiolo<br>
 **Description succincte:** Le Pizzaiolo doit pouvoir accéder à un aide-mémoire concernant les recettes de la Pizzeria<br>
 **Auteur:** A Gomes<br>
