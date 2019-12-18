@@ -27,8 +27,8 @@ Sélectionner une solution technique adaptée
 
 ## Livrables attendus
 - Un document (PDF) de spécifications fonctionnelles comprenant :
-- les différents acteurs interagissant avec le futur système ;
-- la liste des fonctionnalités ;
-- le descriptif des fonctionnalités ;
-- le cycle de vie des commandes.
+    - les différents acteurs interagissant avec le futur système ;
+    - la liste des fonctionnalités ;
+    - le descriptif des fonctionnalités ;
+    - le cycle de vie des commandes.
 - Un document (PDF, diaporama) – sans formalisme particulier, mais un document à la présentation soignée – présentant rapidement la solution fonctionnelle et technique retenue ainsi que les arguments motivant ces choix.

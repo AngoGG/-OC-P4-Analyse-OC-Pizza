@@ -9,9 +9,9 @@
 - Système bancaire
 - Equipe Nationale
 
-**Questions**
-    - Qui effectuera la gestion des commandes au sein de la pizzéria? (Récupération des commandes passées, changement d'état vers en préparation et à livrer)
-    - Le responsable est-il l'administrateur du système ou est-ce un acteur à part entière?
+**Questions**<br>
+- Aucune
+
 
 <img src = "Diagrammes/Diagramme_contexte.jpg" title = "Diagramme de contexte">
 
