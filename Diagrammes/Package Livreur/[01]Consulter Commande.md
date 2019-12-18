@@ -12,14 +12,12 @@
 
 **Le scénario nominal**<br>
 1.	Le système affiche une page contenant la liste des commandes prêtes à être livrées.
-2.	L’utilisateur sélectionne une des commandes à livrer.
-3.	Le système  recherche les informations sur la commande sélectionnée.
-4.	Le système affiche les informations sur la commande sélectionnée
-5.	L’utilisateur quitte la description détaillée de la commande.
-6.	Le système retourne à l’affichage de l’écran d’accueil (Retour point 1.)
 
 **Les scénarios alternatifs**<br>
-1.  En (2): L’utilisateur quitte le logiciel
+- Aucun
 
-**Fin:** Scenario nominal : aux étapes 2 ou 5 sur décision de l’utilisateur<br>
+**Scénario d'exception**<br>
+1. En (1): Aucune commande n'est en cours, le système affiche un message "Aucune commande à livrer"
+
+**Fin:** Scenario nominal : à l'étape 1, après affichage des commandes par le système<br>
 **Post-conditions:** Aucun

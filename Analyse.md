@@ -6,7 +6,6 @@
 - Pizzaiolos
 - Livreurs
 - Client
-- Système de gestion
 - Système bancaire
 - Equipe Nationale
 
@@ -28,7 +27,7 @@
     - Consulter l'état du stock d'ingrédients
     - Gérer les droits utilisateurs (administration)
 
-<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Equipe Nationale.jpg" title = "Cas d'utilisation Equipe Nationale">
+<img src = "Diagrammes/Package Equipe Nationale/Cas d'utilisation Equipe Nationale.jpg" title = "Cas d'utilisation Equipe Nationale">
 
 ### Package Interface Equipe Pizzéria
 
@@ -46,7 +45,7 @@
   - Consulter l'Aide-mémoire de recettes de pizza
   - Consulter l'état du stock d'ingrédient?
 
-<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Pizzeria.jpg" title = "Cas d'utilisation Equipe Pizzéria">
+<img src = "Diagrammes/Package Pizzeria/Cas d'utilisation Pizzeria.jpg" title = "Cas d'utilisation Equipe Pizzéria">
 
 ### Package Interface Livreur
 
@@ -56,7 +55,7 @@
   - Changer état commander en "Livrée"
   - Récupérer Paiement Commande
 
-<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Livreur.jpg" title = "Cas d'utilisation Livreur">
+<img src = "Diagrammes/Package Livreur/Cas d'utilisation Livreur.jpg" title = "Cas d'utilisation Livreur">
 
 ### Package Interface Client
 
@@ -75,4 +74,4 @@
       - Modifier commande tant que pas "en préparation"
       - Annuler commande tant que pas "en préparation"
 
-<img src = "Diagrammes/Cas d'utilisation/Cas d'utilisation Client.jpg" title = "Cas d'utilisation Client">
+<img src = "Diagrammes/Package Client/Cas d'utilisation Client.jpg" title = "Cas d'utilisation Client">

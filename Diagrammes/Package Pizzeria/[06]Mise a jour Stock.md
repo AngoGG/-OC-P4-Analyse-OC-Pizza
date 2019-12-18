@@ -16,10 +16,12 @@
 3.	L’utilisateur valide la nouvelle valeur.
 4.	Le système met à jour la valeur du stock de l'ingrédient modifié.
 5.	Le système rafraîchit l'affichage du stock d'ingrédients, avec la nouvelle valeur pour l'ingrédient modifié
-6.	L'utilisateur quitte la consultation
 
 **Les scénarios alternatifs**<br>
 1.  En (2): L’utilisateur ne sélectionne aucune nouvelle valeur et quitte la modification
 
-**Fin:** Scenario nominal : aux étapes 2 ou 6 sur décision de l’utilisateur<br>
+**Scénario d'exception**<br>
+- Aucun
+
+**Fin:** Scenario nominal : aux étapes 2 ou 5 sur décision de l’utilisateur<br>
 **Post-conditions:** Le  stock de l'ingrédient modifié est bien visibile avec sa nouvelle valeur lors de la consultation du stock

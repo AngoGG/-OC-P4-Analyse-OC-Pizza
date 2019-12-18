@@ -1,4 +1,4 @@
-# Cas  n°2
+# Cas  n°7
 
 **Nom:** Consulter Aide-Mémoire (package « Equipe Pizzeria »)<br>
 **Acteurs(s):** Pizzaiolo<br>
@@ -15,13 +15,17 @@
 2. L’utilisateur sélectionne l'une des recettes.
 3. Le système récupère les informations sur la recette sélectionnée.
 4. Le système affiche la recette sélectionnée.
-6. L'utilisateur quitte la recette sélectionnée
-7. Le système revient au point 1.
-8. L'utilisateur quitte la consultation
+
 
 **Les scénarios alternatifs**<br>
 1. En (2): L’utilisateur quitte la consultation
 2. En (4): L’utilisateur quitte la consultation
 
-**Fin:** Scenario nominal : aux étapes 2, 4 ou 7 sur décision de l’utilisateur<br>
-**Post-conditions:** Aucun
+**Scénario d'exception**<br>
+- Aucun
+
+**Fin:** 
+- Scenario nominal : à l'étape 4 sur décision de l’utilisateur
+- Scenario alternatif: à l'étape 1 sur décision de l'utilisateur
+**Post-conditions:** La recette sélectionnée est affichée
+

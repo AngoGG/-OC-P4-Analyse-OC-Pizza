@@ -15,12 +15,19 @@
 2.	L’utilisateur sélectionne l'une des options.
 3.	L’utilisateur valide l'état sélectionné.
 4.	Le système met à jour l'état de la commande.
-5.	Le système rafraîchit l'affichage de la commande avec son nouvel état
-6.	L'utilisateur quitte la commande
+5.	Le système redirige vers la liste des commandes
 
 **Les scénarios alternatifs**<br>
 1.  En (2): L’utilisateur ne sélectionne aucun état et annule la modification
+2.  En (2): Si l'utilisateur est le responsable de pizzéria, il peut assigner une commande à livrer directement à un livreur
+    1. Le système affiche la liste des livreurs
+    2. L'utilisateur sélectionne le livreur à qui assigner la commande
 2.  En (3): L'utilisateur ne valide pas la sélection et annule la modification
 
-**Fin:** Scenario nominal : aux étapes 2, 3 ou 6 sur décision de l’utilisateur<br>
+**Scénario d'exception**<br>
+- Aucun
+
+**Fin:** 
+- Scenario nominal : à l'étape 5 sur décision de l’utilisateur
+- Scénario alternatif: aux étapes 2 et 3 sur décision de l'utilisateur
 **Post-conditions:** Si la commande a été modifié en état "En cours de préparation, elle apparaît avec ce nouvel état dans la liste des commandes à traiter , si elle a été modifiée en "A livrer", elle n'est plus accessible dans la liste ( Cas d'utilisation "Consulter commandes à livrer")
