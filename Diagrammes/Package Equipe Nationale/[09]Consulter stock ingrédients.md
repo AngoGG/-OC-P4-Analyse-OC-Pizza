@@ -19,5 +19,5 @@
 **Scénario d'exception**<br>
 - Aucun
 
-**Fin:** Scenario nominal : A l'étape 1 sur décision de l’utilisateur<br>
-**Post-conditions:** Aucun
+**Fin:** Scenario nominal : à l'étape 1 sur décision de l’utilisateur<br>
+**Post-conditions:** Les informations sur le stock d'ingrédient disponibles à la pizzéria sont affichées
