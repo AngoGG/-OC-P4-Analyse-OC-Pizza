@@ -14,7 +14,18 @@
 - Equipe Nationale
     - [x] Consulter stock ingrédients
     - [x] Gestion droit utilisateurs
-    - [] Consulter Bilan d'activité Individuel/Global
+    - [x] Consulter Bilan d'activité Global
+    - [x] Consulter les informations individuelles d'un restaurant
+- Client
+    - [] S'incrire
+    - [x] Modifier informations client
+    - [x] Consulter Catalogue des recettes
+    - [x] Ajouter une recette au panier
+    - [x] Passer une commande
+    - [x] Consulter les commandes en cours
+    - [x] Modifier une commande
+    - [] Annuler une commande
+    - [] Effectuer le paiement d'une commande
 
 # A venir
 

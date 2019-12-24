@@ -1,11 +1,11 @@
 # Cas  n°15
 
 **Nom:** Ajouter recette au panier (package « Client »)<br>
-**Acteurs(s):** Client<br>
+**Acteurs(s):** Client, Visiteur<br>
 **Description succincte:** Le client doit pouvoir ajouter une recette au panier afin de pouvoir la commander<br>
 **Auteur:** A Gomes<br>
 **Date(s):** 18/12/2019 (première rédaction)<br>
-**Pré-conditions:** L’utilisateur doit être authentifié en tant que client( Cas d’utilisation « S’identifier »)<br>
+**Pré-conditions:** L’utilisateur doit avoir consulté le catalogue de recette<br>
 **Démarrage:** L’utilisateur a demandé l'ajout d'une recette au panier<br>
 
 ### **DESCRIPTION**
