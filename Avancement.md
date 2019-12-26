@@ -26,11 +26,15 @@
     - [x] Modifier une commande
     - [x] Annuler une commande
     - [x] Effectuer le paiement d'une commande
-    - [] Modifier Panier
-    - [] Consuulter panier
+    - [x] Modifier Panier
+    - [x] Consulter panier
 
+## Cycle de vie des commandes
+    - [En cours] Client
+    - [En cours] Livreur
+    - [] Pizzéria
+    - [] Equipe Nationale
+    
 # A venir
-
- - [] Cycle de vie des commandes
  - [] Document PDF de specs fonctionnelles
  - [] Document PDF de présentation solution fonctionnelle et technique
