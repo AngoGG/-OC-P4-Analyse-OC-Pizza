@@ -24,8 +24,8 @@
     - [x] Passer une commande
     - [x] Consulter les commandes en cours
     - [x] Modifier une commande
-    - [] Annuler une commande
-    - [] Effectuer le paiement d'une commande
+    - [x] Annuler une commande
+    - [x] Effectuer le paiement d'une commande
 
 # A venir
 

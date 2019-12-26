@@ -6,7 +6,7 @@
 **Auteur:** A Gomes<br>
 **Date(s):** 24/12/2019 (première rédaction)<br>
 **Pré-conditions:** L’utilisateur doit se trouver sur la fiche d'une commande qui n'est pas en cours de préparation<br>
-**Démarrage:** L’utilisateur a demandé la mofication de l'état de la commande<br>
+**Démarrage:** L’utilisateur a demandé la mofication de la commande<br>
 
 ### **DESCRIPTION**
 
