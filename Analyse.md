@@ -58,8 +58,7 @@
   - Récupérer Paiement Commande
 
 <img src = "Diagrammes/Package Livreur/Cas d'utilisation Livreur.jpg" title = "Cas d'utilisation Livreur">
-
-<img src = "Diagrammes/Package Livreur/Cycle ommande Livreur.jpg" title = "Cycle Commande Livreur">
+<img src = "Diagrammes/Package Livreur/Cycle commande Livreur.jpg" title = "Cycle Commande Livreur">
 
 ### Package Interface Client
 
