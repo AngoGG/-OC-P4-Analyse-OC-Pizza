@@ -21,6 +21,8 @@
 
 <img src = "Diagrammes/Diagramme_packages.jpg" title = "Diagramme de contexte">
 
+### Package Equipe Nationale
+
 - **Equipe Nationale doit pouvoir**
   - Se connecter
     - Consulter les commandes en cours peut importe leur état, y compris les commandes livrées
@@ -56,6 +58,7 @@
   - Récupérer Paiement Commande
 
 <img src = "Diagrammes/Package Livreur/Cas d'utilisation Livreur.jpg" title = "Cas d'utilisation Livreur">
+<img src = "Diagrammes/Package Livreur/Cycle Commande Livreur.jpg" title = "Cycle Commande Livreur">
 
 ### Package Interface Client
 
@@ -75,3 +78,4 @@
       - Annuler commande tant que pas "en préparation"
 
 <img src = "Diagrammes/Package Client/Cas d'utilisation Client.jpg" title = "Cas d'utilisation Client">
+<img src = "Diagrammes/Package Client/Cycle Commande Client.jpg" title = "Cas d'utilisation Client">
