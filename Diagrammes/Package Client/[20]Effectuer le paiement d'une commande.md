@@ -26,10 +26,11 @@
     - Fin du paiement et passage à l'étape (3) du scénario nominal
 
 **Scénario d'exception**<br>
-- Aucun
+1.  Scénario alternatif 3 : Erreur lors du Paiement, celui ci est refusé
 
 **Fin:** 
 - Scenario nominal : à l'étape 4 sur décision de l’utilisateur
 - Scénario alternatif: à l'étape 2 sur décision de l'utilisateur
+- Scénario d'exception: à l'étape 2 scénario alternatif 3, le paiement est refusé
 
 **Post-conditions:** L'utilisateur est mis au courant de la prise en compte du paiement, la commande est bien créee et accessible pour le client (Cas d'utilisation « Consulter les commandes en cours ») ainsi que pour la pizzéria (Cas d'utilisation « Consulter Commande »)
