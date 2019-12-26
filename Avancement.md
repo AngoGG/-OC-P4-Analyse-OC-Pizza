@@ -26,6 +26,8 @@
     - [x] Modifier une commande
     - [x] Annuler une commande
     - [x] Effectuer le paiement d'une commande
+    - [] Modifier Panier
+    - [] Consuulter panier
 
 # A venir
 
