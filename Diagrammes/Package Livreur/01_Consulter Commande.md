@@ -19,5 +19,7 @@
 **Scénario d'exception**<br>
 1. En (1): Aucune commande n'est en cours, le système affiche un message "Aucune commande à livrer"
 
-**Fin:** Scenario nominal : à l'étape 1, après affichage des commandes par le système<br>
+**Fin:** <br>
+Scenario nominal : à l'étape 1, après affichage des commandes par le système<br>
+
 **Post-conditions:** Aucun

@@ -1,6 +1,6 @@
-# Cas  n°19
+# Cas  n°25
 
-**Nom:** Annuler une Commandes(package « Client »)<br>
+**Nom:** Annuler une commande (package « Client »)<br>
 **Acteurs(s):** Client<br>
 **Description succincte:** L'annulation d'une commande qui n'est pas encore en cours de préparation doit être possible pour l'utilisateur<br>
 **Auteur:** A Gomes<br>
@@ -15,7 +15,6 @@
 2.	L’utilisateur valide l'annulation
 4.	Le système supprime la commande (ou la commande passe en état "Annulée").
 5.	Le système redirige vers la liste des commandes
-
 
 **Les scénarios alternatifs**<br>
 1.  En (2): L’utilisateur annule la suppression

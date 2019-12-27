@@ -1,11 +1,11 @@
 # Cas  n°11
 
-**Nom:** Consultation du Bilan d'activité global du groupe (package « Equipe Nationale »)<br>
+**Nom:** Consultation du bilan d'activité global du groupe (package « Equipe Nationale »)<br>
 **Acteurs(s):** Equipe Nationale<br>
 **Description succincte:** La consultation du Bilan d'activité global du groupe doit être possible pour les membres de l'Equipe Nationale<br>
 **Auteur:** A Gomes<br>
 **Date(s):** 18/12/2019 (première rédaction)<br>
-**Pré-conditions:** L’utilisateur doit être authentifié en tant que membre de l'Equipe Nationale ( Cas d’utilisation « S’identifier »)<br>
+**Pré-conditions:** L’utilisateur doit être authentifié en tant que membre de l'Equipe Nationale (Cas d’utilisation « S’identifier »)<br>
 **Démarrage:** L'utilisateur a demandé la consultation du Bilan d'activité du groupe<br>
 
 ### **DESCRIPTION**

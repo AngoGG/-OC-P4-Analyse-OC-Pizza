@@ -1,11 +1,11 @@
 # Cas  n°5
 
-**Nom:** Consulter Stock Ingrédient (package « Equipe Pizzeria »)<br>
+**Nom:** Consulter le stock des ingrédient (package « Equipe Pizzeria »)<br>
 **Acteurs(s):** Pizzaiolo<br>
 **Description succincte:** Le Pizzaiolo doit pouvoir accéder au stock actuel des ingrédients de la pizzéria<br>
 **Auteur:** A Gomes<br>
 **Date(s):** 04/12/2019 (première rédaction)<br>
-**Pré-conditions:** L’utilisateur doit être authentifié en tant Pizzaiolo ou Responsable ( Cas d’utilisation « S’identifier »)<br>
+**Pré-conditions:** L’utilisateur doit être authentifié en tant Pizzaiolo ou Responsable (Cas d’utilisation « S’identifier »)<br>
 **Démarrage:** L’utilisateur a demandé la consultation du stock d'ingrédient<br>
 
 ### **DESCRIPTION**

@@ -5,7 +5,7 @@
 **Description succincte:** La modification des droits ou l'assignation à un groupe d'un compte utilisateur doit être possible pour les membres de l'Equipe Nationale<br>
 **Auteur:** A Gomes<br>
 **Date(s):** 18/12/2019 (première rédaction)<br>
-**Pré-conditions:** L'utilisateur est identifié en tant que membre de l'Equipe Nationale<br>
+**Pré-conditions:** L'utilisateur est identifié en tant que membre de l'Equipe Nationale (Cas d’utilisation « S’identifier »)<br>
 **Démarrage:** L'utilisateur a demandé le lancement de la gestion des droits utilisateurs<br>
 
 ### **DESCRIPTION**

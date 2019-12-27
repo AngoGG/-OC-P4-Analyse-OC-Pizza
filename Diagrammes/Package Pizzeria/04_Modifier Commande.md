@@ -1,6 +1,6 @@
 # Cas  n°4
 
-**Nom:** Modifier Commandes à traiter (package « Equipe Pizzeria »)<br>
+**Nom:** Modifier une commande à traiter (package « Equipe Pizzeria »)<br>
 **Acteurs(s):** Pizzaiolo ou Responsable Pizzeria<br>
 **Description succincte:** La modification des commandes en état « En cours de préparation » où « A livrer » doit être possible pour les Pizzaiolos et le Responsable de la Pizzéria<br>
 **Auteur:** A Gomes<br>

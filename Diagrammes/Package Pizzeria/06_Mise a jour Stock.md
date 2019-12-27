@@ -1,6 +1,6 @@
 # Cas  n°6
 
-**Nom:** Modifier Etat du Stock (package « Equipe Pizzeria »)<br>
+**Nom:** Modifier l'état du Stock (package « Equipe Pizzeria »)<br>
 **Acteurs(s):** Pizzaiolo ou Responsable Pizzeria<br>
 **Description succincte:** La modification manuelle de l'état du stock d'ingrédient doit être possible pour les Pizzaiolos et le Responsable de la Pizzéria<br>
 **Auteur:** A Gomes<br>
@@ -24,4 +24,4 @@
 - Aucun
 
 **Fin:** Scenario nominal : aux étapes 2 ou 5 sur décision de l’utilisateur<br>
-**Post-conditions:** Le  stock de l'ingrédient modifié est bien visibile avec sa nouvelle valeur lors de la consultation du stock
+**Post-conditions:** Le stock de l'ingrédient modifié est bien visibile avec sa nouvelle valeur lors de la consultation du stock

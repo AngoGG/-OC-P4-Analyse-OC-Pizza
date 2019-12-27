@@ -1,11 +1,11 @@
-# Cas  n°13
+# Cas  n°14
 
-**Nom:** Modifier Informations Client (package « Client »)<br>
+**Nom:** Modifier les informations client (package « Client »)<br>
 **Acteurs(s):** Client<br>
-**Description succincte:** La modification des informations personnelles doit être possible pour un client<br>
+**Description succincte:** La modification des informations personnelles doit être possible pour l'utilisateur<br>
 **Auteur:** A Gomes<br>
 **Date(s):** 18/12/2019 (première rédaction)<br>
-**Pré-conditions:** L’utilisateur doit être authentifié en tant que client( Cas d’utilisation « S’identifier »)<br>
+**Pré-conditions:** L’utilisateur doit être authentifié en tant que client (Cas d’utilisation « S’identifier »)<br>
 **Démarrage:** L’utilisateur a demandé la mofication des informations personnelles<br>
 
 ### **DESCRIPTION**
@@ -15,8 +15,6 @@
 2.	L’utilisateur modifie une ou plusieurs informations.
 3.  L'utilisateur valide les modifications
 4.  Le système met à jour les informations et rafraîchit l'affichage
-
-
 
 **Les scénarios alternatifs**<br>
 1.  En (2): L’utilisateur ne modifie aucune information et quitte l'écran

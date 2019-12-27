@@ -1,11 +1,11 @@
-# Cas  n°18
+# Cas  n°24
 
-**Nom:** Modifier Commandes (package « Client »)<br>
+**Nom:** Modifier une commande (package « Client »)<br>
 **Acteurs(s):** Livreur<br>
 **Description succincte:** La modification d'une commande qui n'est pas encore en cours de préparation doit être possible pour l'utilisateur<br>
 **Auteur:** A Gomes<br>
 **Date(s):** 24/12/2019 (première rédaction)<br>
-**Pré-conditions:** L’utilisateur doit se trouver sur la fiche d'une commande qui n'est pas en cours de préparation<br>
+**Pré-conditions:** L’utilisateur doit être connecté et doit se trouver sur la fiche d'une commande qui n'est pas en cours de préparation<br>
 **Démarrage:** L’utilisateur a demandé la mofication de la commande<br>
 
 ### **DESCRIPTION**
