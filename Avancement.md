@@ -17,7 +17,7 @@
     - [x] Consulter Bilan d'activité Global
     - [x] Consulter les informations individuelles d'un restaurant
 - Client
-    - [] S'incrire
+    - [x] S'incrire
     - [x] Modifier informations client
     - [x] Consulter Catalogue des recettes
     - [x] Ajouter une recette au panier
@@ -28,12 +28,15 @@
     - [x] Effectuer le paiement d'une commande
     - [x] Modifier Panier
     - [x] Consulter panier
-
+    - [x] Vérification Adresse Livraison
+- Global
+    - [x] S'identifier
+    
 ## Cycle de vie des commandes
-    - [En cours] Client
-    - [En cours] Livreur
-    - [] Pizzéria
-    - [] Equipe Nationale
+- [x] Client
+- [x] Livreur
+- [x] Pizzéria
+- [] Equipe Nationale
     
 # A venir
  - [] Document PDF de specs fonctionnelles
