@@ -11,7 +11,7 @@
 ### **DESCRIPTION**
 
 **Le scénario nominal**<br>
-1. Le système valide le paiement et retourne sur la page de la commande ( Cas d'utilisateur « Passer une commande »)
+1. Le système passe le statut de la commande en "A payer" et retourne sur la page de la commande ( Cas d'utilisateur « Passer une commande »)
 
 **Les scénarios alternatifs**<br>
 - Aucun
