@@ -15,7 +15,7 @@
 2. L'utilisateur remplis les informations de connexion
 3. L'utilisateur valide les information
 4. Le système vérifie les informations
-5. Le système connecte l'utilisateur et affiche la page d'accueil du site
+5. Le système connecte l'utilisateur et affiche la page d'accueil de son interface
 
 **Les scénarios alternatifs**<br>
 1.  En (2): L'utilisateur annule la connexion et quitte l'écran

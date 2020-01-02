@@ -1,11 +1,11 @@
 # Cas  n°22
 
-**Nom:** Payer une commande (package « Client »)<br>
+**Nom:** Payer à la livraison ( package « Client »)<br>
 **Acteurs(s):** Client<br>
-**Description succincte:** Le paiement d'une commande doit être possible pour l'utilisateur<br>
+**Description succincte:** Le paiement à la livraison d'une commande doit être possible pour l'utilisateur<br>
 **Auteur:** A Gomes<br>
 **Date(s):** 26/12/2019 (première rédaction)<br>
-**Pré-conditions:** L’utilisateur doit être sur la page de paiement de la commande<br>
+**Pré-conditions:** L’utilisateur doit être sur la page de choix de paiement de la commande<br>
 **Démarrage:** L’utilisateur a choisit le paiement à la livraison<br>
 
 ### **DESCRIPTION**
